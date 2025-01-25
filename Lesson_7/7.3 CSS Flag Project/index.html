@@ -6,7 +6,49 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
-    
+    .flag{
+      background-color: #ce1126;
+      height: 600px;
+      width: 900px;
+      position: relative;
+    }
+
+    /*this is the text inside the flag*/
+    .flag > p{
+      color: white;
+      text-align: center;
+      font-size: 80px;
+    }
+
+    /*this is the dark blue element*/
+    .flag > div{
+      background-color: #002868;
+      height: 300px;
+      width: 100%;
+      position: absolute;
+      top: 25%;
+    }
+
+    /*this is the white circle*/
+    div > div > div{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: white;
+      top: 50px;
+      left: 350px;
+      position: absolute;
+    }
+
+    /*this is the text inside the circle*/
+    div > div > p{
+      color: black;
+      position: relative;
+      font-size: 80px;
+      margin: 0px;
+      text-align: center;
+    }
+
   </style>
 </head>
 
